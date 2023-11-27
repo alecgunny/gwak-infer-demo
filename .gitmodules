@@ -1,0 +1,6 @@
+[submodule "ml4gw"]
+	path = ml4gw
+	url = git@github.com:ml4gw/ml4gw.git
+[submodule "gw-anomaly"]
+	path = gw-anomaly
+	url = git@github.com:katyagovorkova/gw-anomaly.git

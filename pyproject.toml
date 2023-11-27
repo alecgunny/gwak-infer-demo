@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gwak-infer"
+description = "Demo of GWAK inference using ml4gw components"
+version = "0.0.1"
+authors = ["Alec Gunny"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+jupyter = "^1.0.0"
+numpy = "^1.24"
+h5py = "^3.10"
+ml4gw = {path = "ml4gw", develop = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
